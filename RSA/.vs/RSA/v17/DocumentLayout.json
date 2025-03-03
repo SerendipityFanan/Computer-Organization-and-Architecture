@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\fan\\homework3\\cryptology\\RSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{894272EB-6CB0-47B4-9411-543510510CEE}|RSA\\RSA.vcxproj|D:\\fan\\homework3\\cryptology\\RSA\\RSA\\RSA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{894272EB-6CB0-47B4-9411-543510510CEE}|RSA\\RSA.vcxproj|solutionrelative:RSA\\RSA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lenovo\\AppData\\Local\\Temp\\winzips\\{24655A23-EB4E-4BD2-8084-0600AFB1454C}\\Untitled2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Untitled2.cpp",
+              "DocumentMoniker": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\winzips\\{24655A23-EB4E-4BD2-8084-0600AFB1454C}\\Untitled2.cpp",
+              "ToolTip": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\winzips\\{24655A23-EB4E-4BD2-8084-0600AFB1454C}\\Untitled2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T11:20:26.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RSA.cpp",
+              "DocumentMoniker": "D:\\fan\\homework3\\cryptology\\RSA\\RSA\\RSA.cpp",
+              "RelativeDocumentMoniker": "RSA\\RSA.cpp",
+              "ToolTip": "D:\\fan\\homework3\\cryptology\\RSA\\RSA\\RSA.cpp",
+              "RelativeToolTip": "RSA\\RSA.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T07:03:39.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
