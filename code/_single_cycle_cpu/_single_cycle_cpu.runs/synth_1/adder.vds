@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jun 14 13:31:21 2024
+# Process ID: 2096
+# Current directory: D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.runs/synth_1
+# Command line: vivado.exe -log adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder.tcl
+# Log file: D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.runs/synth_1/adder.vds
+# Journal file: D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adder.tcl -notrace
+Command: synth_design -top adder -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t-fbg676'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t-fbg676'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2668 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 311.039 ; gain = 80.648
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/adder.v:8]
+INFO: [Synth 8-256] done synthesizing module 'adder' (1#1) [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/adder.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 350.367 ; gain = 119.977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 350.367 ; gain = 119.977
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'resetn'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_clk'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'resetn'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_clk'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:12]
+invalid command name "SET_PROPERTY"
+WARNING: [Vivado 12-584] No ports matched 'lcd_rst'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_cs'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rs'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_wr'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rd'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_bl_ctr'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[0]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[1]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[2]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[3]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[4]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[5]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[6]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[7]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[8]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[9]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[10]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[11]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[12]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[13]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[14]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[15]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_int'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_sda'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_scl'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_rstn'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rst'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_cs'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rs'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_wr'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rd'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_bl_ctr'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[0]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[1]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[2]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[3]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[4]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[5]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[6]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[7]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[8]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[9]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[10]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[11]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[12]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[13]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[14]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_data_io[15]'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_int'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_sda'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_scl'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ct_rstn'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_clk'. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/constrs_1/new/single_cycle_cpu.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 607.426 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 607.426 ; gain = 377.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 607.426 ; gain = 377.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 607.426 ; gain = 377.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 607.426 ; gain = 377.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 607.426 ; gain = 377.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 639.055 ; gain = 408.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 639.055 ; gain = 408.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     9|
+|2     |LUT2   |    32|
+|3     |IBUF   |    65|
+|4     |OBUF   |    33|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   139|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 651.199 ; gain = 163.750
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:42 . Memory (MB): peak = 651.199 ; gain = 420.809
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+12 Infos, 59 Warnings, 58 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:46 . Memory (MB): peak = 667.422 ; gain = 444.066
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.runs/synth_1/adder.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 667.422 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 14 13:32:10 2024...

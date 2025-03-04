@@ -1,0 +1,11 @@
+0.6
+2017.1
+Apr 14 2017
+19:10:27
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.sim/sim_1/synth/func/single_cycle_cpu_display_func_synth.v,1718343749,verilog,,,,adder;glbl,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/alu.v,1718336041,verilog,,,,alu,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/data_ram.v,1717492288,verilog,,,,data_ram,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/inst_rom.v,1718335984,verilog,,,,inst_rom,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/regfile.v,1717492344,verilog,,,,regfile,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/single_cycle_cpu.v,1718341525,verilog,,,,single_cycle_cpu,,,,,,,,
+D:/Vivado/code/_single_cycle_cpu/_single_cycle_cpu.srcs/sources_1/new/single_cycle_cpu_display.v,1717492404,verilog,,,,single_cycle_cpu_display,,,,,,,,

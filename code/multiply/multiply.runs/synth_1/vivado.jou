@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Apr  9 22:57:27 2024
+# Process ID: 14684
+# Current directory: D:/Vivado/code/multiply/multiply.runs/synth_1
+# Command line: vivado.exe -log multiply_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiply_display.tcl
+# Log file: D:/Vivado/code/multiply/multiply.runs/synth_1/multiply_display.vds
+# Journal file: D:/Vivado/code/multiply/multiply.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source multiply_display.tcl -notrace
